@@ -5,7 +5,7 @@ const { db } = require("./db/db.connect");
 const userRoutes = require("./routes/user.routes");
 db();
 const corsOptions = {
-  origin: ["http://localhost:3000"],
+  origin: ["http://localhost:3000", "https://dancing-babka-6ac094.netlify.app"],
 };
 const app = express();
 
